@@ -10,6 +10,8 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class MySpringBootPOSAppInitializer {
 
+    public String PORT=System.getenv("PORT");
+
     public static void main(String[] args) {
 
         SpringApplication.run(MySpringBootPOSAppInitializer.class);
